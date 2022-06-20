@@ -1,0 +1,112 @@
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ cd cutadapt_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461177$ fastqc out_GSM461177_1.fastq
+Started analysis of out_GSM461177_1.fastq
+Approx 5% complete for out_GSM461177_1.fastq
+Approx 10% complete for out_GSM461177_1.fastq
+Approx 15% complete for out_GSM461177_1.fastq
+Approx 20% complete for out_GSM461177_1.fastq
+Approx 25% complete for out_GSM461177_1.fastq
+Approx 30% complete for out_GSM461177_1.fastq
+Approx 35% complete for out_GSM461177_1.fastq
+Approx 40% complete for out_GSM461177_1.fastq
+Approx 45% complete for out_GSM461177_1.fastq
+Approx 50% complete for out_GSM461177_1.fastq
+Approx 55% complete for out_GSM461177_1.fastq
+Approx 60% complete for out_GSM461177_1.fastq
+Approx 65% complete for out_GSM461177_1.fastq
+Approx 70% complete for out_GSM461177_1.fastq
+Approx 75% complete for out_GSM461177_1.fastq
+Approx 80% complete for out_GSM461177_1.fastq
+Approx 85% complete for out_GSM461177_1.fastq
+Approx 90% complete for out_GSM461177_1.fastq
+Approx 95% complete for out_GSM461177_1.fastq
+Analysis complete for out_GSM461177_1.fastq
+^[[A(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461177$ fastqc out_GSM461177_2.fastq
+Started analysis of out_GSM461177_2.fastq
+Approx 5% complete for out_GSM461177_2.fastq
+Approx 10% complete for out_GSM461177_2.fastq
+Approx 15% complete for out_GSM461177_2.fastq
+Approx 20% complete for out_GSM461177_2.fastq
+Approx 25% complete for out_GSM461177_2.fastq
+Approx 30% complete for out_GSM461177_2.fastq
+Approx 35% complete for out_GSM461177_2.fastq
+Approx 40% complete for out_GSM461177_2.fastq
+Approx 45% complete for out_GSM461177_2.fastq
+Approx 50% complete for out_GSM461177_2.fastq
+Approx 55% complete for out_GSM461177_2.fastq
+Approx 60% complete for out_GSM461177_2.fastq
+Approx 65% complete for out_GSM461177_2.fastq
+Approx 70% complete for out_GSM461177_2.fastq
+Approx 75% complete for out_GSM461177_2.fastq
+Approx 80% complete for out_GSM461177_2.fastq
+Approx 85% complete for out_GSM461177_2.fastq
+Approx 90% complete for out_GSM461177_2.fastq
+Approx 95% complete for out_GSM461177_2.fastq
+Analysis complete for out_GSM461177_2.fastq
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461177$ cd ..
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ cd cutadapt_GSM461180
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461180$ fastqc out_GSM461180_1.fastq
+Started analysis of out_GSM461180_1.fastq
+Approx 5% complete for out_GSM461180_1.fastq
+Approx 10% complete for out_GSM461180_1.fastq
+Approx 15% complete for out_GSM461180_1.fastq
+Approx 20% complete for out_GSM461180_1.fastq
+Approx 25% complete for out_GSM461180_1.fastq
+Approx 30% complete for out_GSM461180_1.fastq
+Approx 35% complete for out_GSM461180_1.fastq
+Approx 40% complete for out_GSM461180_1.fastq
+Approx 45% complete for out_GSM461180_1.fastq
+Approx 50% complete for out_GSM461180_1.fastq
+Approx 55% complete for out_GSM461180_1.fastq
+Approx 60% complete for out_GSM461180_1.fastq
+Approx 65% complete for out_GSM461180_1.fastq
+Approx 70% complete for out_GSM461180_1.fastq
+Approx 75% complete for out_GSM461180_1.fastq
+Approx 80% complete for out_GSM461180_1.fastq
+Approx 85% complete for out_GSM461180_1.fastq
+Approx 90% complete for out_GSM461180_1.fastq
+Approx 95% complete for out_GSM461180_1.fastq
+Analysis complete for out_GSM461180_1.fastq
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461180$ fastqc out_GSM461180_2.fastq
+Started analysis of out_GSM461180_2.fastq
+Approx 5% complete for out_GSM461180_2.fastq
+Approx 10% complete for out_GSM461180_2.fastq
+Approx 15% complete for out_GSM461180_2.fastq
+Approx 20% complete for out_GSM461180_2.fastq
+Approx 25% complete for out_GSM461180_2.fastq
+Approx 30% complete for out_GSM461180_2.fastq
+Approx 35% complete for out_GSM461180_2.fastq
+Approx 40% complete for out_GSM461180_2.fastq
+Approx 45% complete for out_GSM461180_2.fastq
+Approx 50% complete for out_GSM461180_2.fastq
+Approx 55% complete for out_GSM461180_2.fastq
+Approx 60% complete for out_GSM461180_2.fastq
+Approx 65% complete for out_GSM461180_2.fastq
+Approx 70% complete for out_GSM461180_2.fastq
+Approx 75% complete for out_GSM461180_2.fastq
+Approx 80% complete for out_GSM461180_2.fastq
+Approx 85% complete for out_GSM461180_2.fastq
+Approx 90% complete for out_GSM461180_2.fastq
+Approx 95% complete for out_GSM461180_2.fastq
+Analysis complete for out_GSM461180_2.fastq
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461180$ cd ..
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mkdir fastqc_2_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mkdir fastqc_2_GSM461180
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv out_GSM461177_1_fastqc.html out_GSM461177_1_fastqc.zip fastqc_2_GSM461177
+mv: cannot stat 'out_GSM461177_1_fastqc.html': No such file or directory
+mv: cannot stat 'out_GSM461177_1_fastqc.zip': No such file or directory
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ cd cutadapt_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461177$ mv out_GSM461177_1_fastqc.html out_GSM461177_1_fastqc.zip fastqc_2_GSM461177
+mv: target 'fastqc_2_GSM461177' is not a directory
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461177$ mv out_GSM461177_1_fastqc.html out_GSM461177_1_fastqc.zip julia_mo
+mv: target 'julia_mo' is not a directory
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461177$ cd ..
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ cd fastqc_2_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/fastqc_2_GSM461177$ ls
+out_GSM461177_1_fastqc.html  out_GSM461177_1_fastqc.zip  out_GSM461177_2_fastqc.html  out_GSM461177_2_fastqc.zip
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/fastqc_2_GSM461177$ cd ..
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ cd cutadapt_GSM461180
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461180$ ls
+GSM461180.cutadapt.json  out_GSM461180_1_fastqc.html  out_GSM461180_2.fastq        out_GSM461180_2_fastqc.zip
+out_GSM461180_1.fastq    out_GSM461180_1_fastqc.zip   out_GSM461180_2_fastqc.html
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~/cutadapt_GSM461180$ cd ..

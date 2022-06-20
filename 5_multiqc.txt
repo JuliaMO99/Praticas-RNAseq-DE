@@ -1,0 +1,29 @@
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ multiqc fastqc_2_GSM461177
+
+  /// MultiQC 🔍 | v1.12
+
+|           multiqc | Search path : /home/julia_mo/fastqc_2_GSM461177
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 4/4
+|            fastqc | Found 2 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | MultiQC complete
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv multiqc_report.html multiqc_report_2_GSM461177.html
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv multiqc_data multiqc_data_2_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mkdir multiqc_2
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv multiqc_report_2_GSM461177.html multiqc_data_2_GSM461177 multiqc_2
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ multiqc fastqc_2_GSM461180
+
+  /// MultiQC 🔍 | v1.12
+
+|           multiqc | Search path : /home/julia_mo/fastqc_2_GSM461180
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 4/4
+|            fastqc | Found 2 reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : multiqc_report.html
+|           multiqc | Data        : multiqc_data
+|           multiqc | MultiQC complete
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv multiqc_report.html multiqc_report_2_GSM461180.html
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv multiqc_data multiqc_data_2_GSM461180
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv multiqc_report_2_GSM461180.html multiqc_data_2_GSM461180 multiqc_2
