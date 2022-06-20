@@ -1,0 +1,126 @@
+(base) julia_mo@LAPTOP-RKVH7C05:~$ conda activate rnaseqde
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ ls
+Drosophila_melanogaster                         GSM461177_1_subsampled.fastqsanger_fastqc.zip   GSM461180_1_subsampled.fastqsanger  bin
+Drosophila_melanogaster_UCSC_dm6.tar.gz         GSM461177_2_subsampled.fastqsanger              GSM461180_2_subsampled.fastqsanger  miniconda3
+GSM461177_1_subsampled.fastqsanger              GSM461177_2_subsampled.fastqsanger_fastqc.html  Miniconda3-latest-Linux-x86_64.sh   null
+GSM461177_1_subsampled.fastqsanger_fastqc.html  GSM461177_2_subsampled.fastqsanger_fastqc.zip   README.txt
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r GSM461177_1_subsampled.fastqsanger_fastqc.zip
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r GSM461177_1_subsampled.fastqsanger_fastqc.html
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r GSM461177_2_subsampled.fastqsanger_fastqc.zip
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r GSM461177_2_subsampled.fastqsanger_fastqc.html
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ wget GSM461177_untreat_paired.zip
+--2022-06-18 17:41:51--  http://gsm461177_untreat_paired.zip/
+Resolving gsm461177_untreat_paired.zip (gsm461177_untreat_paired.zip)... failed: Name or service not known.
+wget: unable to resolve host address ‘gsm461177_untreat_paired.zip’
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ fastqc GSM461177_untreat_paired.zip
+Failed to process GSM461177_untreat_paired.zip
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: ID line didn't start with '@'
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:158)
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:89)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:106)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:62)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunner.java:159)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.java:121)
+        at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:316)
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r GSM461177_untreat_paired.zip
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r GSM461180_treat_paired.zip
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ fastqc GSM461177_1_subsampled.fastqsanger
+Started analysis of GSM461177_1_subsampled.fastqsanger
+Approx 5% complete for GSM461177_1_subsampled.fastqsanger
+Approx 10% complete for GSM461177_1_subsampled.fastqsanger
+Approx 15% complete for GSM461177_1_subsampled.fastqsanger
+Approx 20% complete for GSM461177_1_subsampled.fastqsanger
+Approx 25% complete for GSM461177_1_subsampled.fastqsanger
+Approx 30% complete for GSM461177_1_subsampled.fastqsanger
+Approx 35% complete for GSM461177_1_subsampled.fastqsanger
+Approx 40% complete for GSM461177_1_subsampled.fastqsanger
+Approx 45% complete for GSM461177_1_subsampled.fastqsanger
+Approx 50% complete for GSM461177_1_subsampled.fastqsanger
+Approx 55% complete for GSM461177_1_subsampled.fastqsanger
+Approx 60% complete for GSM461177_1_subsampled.fastqsanger
+Approx 65% complete for GSM461177_1_subsampled.fastqsanger
+Approx 70% complete for GSM461177_1_subsampled.fastqsanger
+Approx 75% complete for GSM461177_1_subsampled.fastqsanger
+Approx 80% complete for GSM461177_1_subsampled.fastqsanger
+Approx 85% complete for GSM461177_1_subsampled.fastqsanger
+Approx 90% complete for GSM461177_1_subsampled.fastqsanger
+Approx 95% complete for GSM461177_1_subsampled.fastqsanger
+Analysis complete for GSM461177_1_subsampled.fastqsanger
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ fastqc GSM461177_2_subsampled.fastqsanger
+Started analysis of GSM461177_2_subsampled.fastqsanger
+Approx 5% complete for GSM461177_2_subsampled.fastqsanger
+Approx 10% complete for GSM461177_2_subsampled.fastqsanger
+Approx 15% complete for GSM461177_2_subsampled.fastqsanger
+Approx 20% complete for GSM461177_2_subsampled.fastqsanger
+Approx 25% complete for GSM461177_2_subsampled.fastqsanger
+Approx 30% complete for GSM461177_2_subsampled.fastqsanger
+Approx 35% complete for GSM461177_2_subsampled.fastqsanger
+Approx 40% complete for GSM461177_2_subsampled.fastqsanger
+Approx 45% complete for GSM461177_2_subsampled.fastqsanger
+Approx 50% complete for GSM461177_2_subsampled.fastqsanger
+Approx 55% complete for GSM461177_2_subsampled.fastqsanger
+Approx 60% complete for GSM461177_2_subsampled.fastqsanger
+Approx 65% complete for GSM461177_2_subsampled.fastqsanger
+Approx 70% complete for GSM461177_2_subsampled.fastqsanger
+Approx 75% complete for GSM461177_2_subsampled.fastqsanger
+Approx 80% complete for GSM461177_2_subsampled.fastqsanger
+Approx 85% complete for GSM461177_2_subsampled.fastqsanger
+Approx 90% complete for GSM461177_2_subsampled.fastqsanger
+Approx 95% complete for GSM461177_2_subsampled.fastqsanger
+Analysis complete for GSM461177_2_subsampled.fastqsanger
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ fastqc GSM461180_1_subsampled.fastqsanger
+Started analysis of GSM461180_1_subsampled.fastqsanger
+Approx 5% complete for GSM461180_1_subsampled.fastqsanger
+Approx 10% complete for GSM461180_1_subsampled.fastqsanger
+Approx 15% complete for GSM461180_1_subsampled.fastqsanger
+Approx 20% complete for GSM461180_1_subsampled.fastqsanger
+Approx 25% complete for GSM461180_1_subsampled.fastqsanger
+Approx 30% complete for GSM461180_1_subsampled.fastqsanger
+Approx 35% complete for GSM461180_1_subsampled.fastqsanger
+Approx 40% complete for GSM461180_1_subsampled.fastqsanger
+Approx 45% complete for GSM461180_1_subsampled.fastqsanger
+Approx 50% complete for GSM461180_1_subsampled.fastqsanger
+Approx 55% complete for GSM461180_1_subsampled.fastqsanger
+Approx 60% complete for GSM461180_1_subsampled.fastqsanger
+Approx 65% complete for GSM461180_1_subsampled.fastqsanger
+Approx 70% complete for GSM461180_1_subsampled.fastqsanger
+Approx 75% complete for GSM461180_1_subsampled.fastqsanger
+Approx 80% complete for GSM461180_1_subsampled.fastqsanger
+Approx 85% complete for GSM461180_1_subsampled.fastqsanger
+Approx 90% complete for GSM461180_1_subsampled.fastqsanger
+Approx 95% complete for GSM461180_1_subsampled.fastqsanger
+Analysis complete for GSM461180_1_subsampled.fastqsanger
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ fastqc GSM461180_2_subsampled.fastqsanger
+Started analysis of GSM461180_2_subsampled.fastqsanger
+Approx 5% complete for GSM461180_2_subsampled.fastqsanger
+Approx 10% complete for GSM461180_2_subsampled.fastqsanger
+Approx 15% complete for GSM461180_2_subsampled.fastqsanger
+Approx 20% complete for GSM461180_2_subsampled.fastqsanger
+Approx 25% complete for GSM461180_2_subsampled.fastqsanger
+Approx 30% complete for GSM461180_2_subsampled.fastqsanger
+Approx 35% complete for GSM461180_2_subsampled.fastqsanger
+Approx 40% complete for GSM461180_2_subsampled.fastqsanger
+Approx 45% complete for GSM461180_2_subsampled.fastqsanger
+Approx 50% complete for GSM461180_2_subsampled.fastqsanger
+Approx 55% complete for GSM461180_2_subsampled.fastqsanger
+Approx 60% complete for GSM461180_2_subsampled.fastqsanger
+Approx 65% complete for GSM461180_2_subsampled.fastqsanger
+Approx 70% complete for GSM461180_2_subsampled.fastqsanger
+Approx 75% complete for GSM461180_2_subsampled.fastqsanger
+Approx 80% complete for GSM461180_2_subsampled.fastqsanger
+Approx 85% complete for GSM461180_2_subsampled.fastqsanger
+Approx 90% complete for GSM461180_2_subsampled.fastqsanger
+Approx 95% complete for GSM461180_2_subsampled.fastqsanger
+Analysis complete for GSM461180_2_subsampled.fastqsanger
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ fastqc .
+Failed to process .
+java.io.FileNotFoundException: . (Is a directory)
+        at java.io.FileInputStream.open0(Native Method)
+        at java.io.FileInputStream.open(FileInputStream.java:195)
+        at java.io.FileInputStream.<init>(FileInputStream.java:138)
+        at uk.ac.babraham.FastQC.Sequence.FastQFile.<init>(FastQFile.java:73)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:106)
+        at uk.ac.babraham.FastQC.Sequence.SequenceFactory.getSequenceFile(SequenceFactory.java:62)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.processFile(OfflineRunner.java:159)
+        at uk.ac.babraham.FastQC.Analysis.OfflineRunner.<init>(OfflineRunner.java:121)
+        at uk.ac.babraham.FastQC.FastQCApplication.main(FastQCApplication.java:316)

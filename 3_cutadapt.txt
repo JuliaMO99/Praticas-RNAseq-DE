@@ -1,0 +1,59 @@
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ cutadapt -q 20 -Q 20,20 -o out_GSM461177_1.fastq -p out_GSM461177_2.fastq GSM461177_1_subsampled.fastqsanger GSM461177_2_subsampled.fastqsanger --json=filename.cutadapt.json
+This is cutadapt 4.1 with Python 3.9.13
+Command line parameters: -q 20 -Q 20,20 -o out_GSM461177_1.fastq -p out_GSM461177_2.fastq GSM461177_1_subsampled.fastqsanger GSM461177_2_subsampled.fastqsanger --json=filename.cutadapt.json
+Processing paired-end reads on 1 core ...
+Done           00:00:07     1,057,657 reads @   7.3 µs/read;   8.23 M reads/minute
+Finished in 7.72 s (7 µs/read; 8.22 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          1,057,657
+Pairs written (passing filters):     1,057,657 (100.0%)
+
+Total basepairs processed:    78,266,618 bp
+  Read 1:    39,133,309 bp
+  Read 2:    39,133,309 bp
+Quality-trimmed:               1,413,316 bp (1.8%)
+  Read 1:       507,330 bp
+  Read 2:       905,986 bp
+Total written (filtered):     76,853,302 bp (98.2%)
+  Read 1:    38,625,979 bp
+  Read 2:    38,227,323 bp
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv filename.cutadapt.json cutadapt_GSM461177.json
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ cutadapt -q 20 -Q 20,20 -o out_GSM461180_1.fastq -p out_GSM461180_2.fastq GSM461180_1_subsampled.fastqsanger GSM461180_2_subsampl
+ed.fastqsanger --json=cutadapt_GSM461180.json
+This is cutadapt 4.1 with Python 3.9.13
+Command line parameters: -q 20 -Q 20,20 -o out_GSM461180_1.fastq -p out_GSM461180_2.fastq GSM461180_1_subsampled.fastqsanger GSM461180_2_subsampled.fastqsanger --json=cutadapt_GSM461180.json
+Processing paired-end reads on 1 core ...
+Done           00:00:09     1,226,483 reads @   7.7 µs/read;   7.75 M reads/minute
+Finished in 9.50 s (8 µs/read; 7.75 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          1,226,483
+Pairs written (passing filters):     1,226,483 (100.0%)
+
+Total basepairs processed:    90,759,742 bp
+  Read 1:    45,379,871 bp
+  Read 2:    45,379,871 bp
+Quality-trimmed:               6,421,570 bp (7.1%)
+  Read 1:     1,019,252 bp
+  Read 2:     5,402,318 bp
+Total written (filtered):     84,338,172 bp (92.9%)
+  Read 1:    44,360,619 bp
+  Read 2:    39,977,553 bp
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rmdir cutadapt_GMS461180
+rmdir: failed to remove 'cutadapt_GMS461180': No such file or directory
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rmdir cutadapt_GSM461180
+rmdir: failed to remove 'cutadapt_GSM461180': Directory not empty
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rmdir -r cutadapt_GSM461180
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r cutadapt_GSM461180
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ rm -r cutadapt_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mkdir cutadapt_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mkdir cutadapt_GSM461180
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv out_GSM461177_1.fastq out_GSM461177_2.fastq cutadapt_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv out_GSM461180_1.fastq out_GSM461180_2.fastq cutadapt_GSM461180
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv cutadapt_GSM461177.json cutadapt_GSM461177
+(rnaseqde) julia_mo@LAPTOP-RKVH7C05:~$ mv cutadapt_GSM461180.json cutadapt_GSM461180
