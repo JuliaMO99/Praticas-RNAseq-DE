@@ -1,0 +1,54 @@
+{
+  "tag": "Cutadapt report",
+  "schema_version": [0, 1],
+  "cutadapt_version": "4.1",
+  "python_version": "3.9.13",
+  "command_line_arguments": [
+    "-q",
+    "20",
+    "-Q",
+    "20,20",
+    "-o",
+    "out_GSM461180_1.fastq",
+    "-p",
+    "out_GSM461180_2.fastq",
+    "GSM461180_1_subsampled.fastqsanger",
+    "GSM461180_2_subsampled.fastqsanger",
+    "--json=cutadapt_GSM461180.json"
+  ],
+  "cores": 1,
+  "input": {
+    "path1": "GSM461180_1_subsampled.fastqsanger",
+    "path2": "GSM461180_2_subsampled.fastqsanger",
+    "paired": true
+  },
+  "read_counts": {
+    "input": 1226483,
+    "filtered": {
+      "too_short": null,
+      "too_long": null,
+      "too_many_n": null,
+      "too_many_expected_errors": null,
+      "casava_filtered": null,
+      "discard_trimmed": null,
+      "discard_untrimmed": null
+    },
+    "output": 1226483,
+    "reverse_complemented": null,
+    "read1_with_adapter": null,
+    "read2_with_adapter": null
+  },
+  "basepair_counts": {
+    "input": 90759742,
+    "input_read1": 45379871,
+    "input_read2": 45379871,
+    "quality_trimmed": 6421570,
+    "quality_trimmed_read1": 1019252,
+    "quality_trimmed_read2": 5402318,
+    "output": 84338172,
+    "output_read1": 44360619,
+    "output_read2": 39977553
+  },
+  "adapters_read1": [],
+  "adapters_read2": []
+}
